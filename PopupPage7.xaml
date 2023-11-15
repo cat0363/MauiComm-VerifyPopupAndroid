@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+		   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+		   xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+		   x:Class="MauiComm_VerifyPopupAndroid.PopupPage7">
+
+    <Grid>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="dotnet_bot.png" HeightRequest="200" />
+                <Label Text="Hello, World!" HorizontalTextAlignment="Center" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+    
+</toolkit:Popup>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiComm_VerifyPopupAndroid.MainPage">
+
+    <Grid RowDefinitions="Auto,Auto,Auto,Auto,44,44,44,44,44,44,44,*" ColumnDefinitions="*,*">
+        <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Vertical">
+            <Label Text="Popup Size:" VerticalOptions="Center" />
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Label Text="Width" VerticalOptions="Center" />
+                <Entry x:Name="txtPopupWidth" WidthRequest="80" Text="100" />
+                <Label Text="Height" VerticalOptions="Center" />
+                <Entry x:Name="txtPopupHeight" WidthRequest="80" Text="100" />
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Vertical">
+            <Label Text="Content Size:" VerticalOptions="Center" />
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Label Text="Width" VerticalOptions="Center" />
+                <Entry x:Name="txtContentWidth" WidthRequest="80" Text="100" />
+                <Label Text="Height" VerticalOptions="Center" />
+                <Entry x:Name="txtContentHeight" WidthRequest="80" Text="100" />
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Vertical">
+            <Label Text="HorizontalOptions:" VerticalOptions="Center" />
+            <StackLayout Orientation="Horizontal" Spacing="5">
+                <Label Text="Start" VerticalOptions="Center" />
+                <RadioButton x:Name="rbnStartH" IsChecked="True" GroupName="gnH" />
+                <Label Text="Center" VerticalOptions="Center" />
+                <RadioButton x:Name="rbnCenterH" IsChecked="False" GroupName="gnH" />
+                <Label Text="End" VerticalOptions="Center" />
+                <RadioButton x:Name="rbnEndH" IsChecked="False" GroupName="gnH" />
+                <Label Text="Fill" VerticalOptions="Center" />
+                <RadioButton x:Name="rbnFillH" IsChecked="False" GroupName="gnH" />
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Vertical">
+            <Label Text="VerticalOptions:" VerticalOptions="Center" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Start" VerticalOptions="Center" />
+                <RadioButton x:Name="rbnStartV" IsChecked="True" GroupName="gnV" />
+                <Label Text="Center" VerticalOptions="Center" />
+                <RadioButton x:Name="rbnCenterV" IsChecked="False" GroupName="gnV" />
+                <Label Text="End" VerticalOptions="Center" />
+                <RadioButton x:Name="rbnEndV" IsChecked="False" GroupName="gnV" />
+                <Label Text="Fill" VerticalOptions="Center" />
+                <RadioButton x:Name="rbnFillV" IsChecked="False" GroupName="gnV" />
+            </StackLayout>
+        </StackLayout>
+
+        <Button Grid.Row="4" Grid.Column="0" x:Name="btnTest1" Text="Test1" BackgroundColor="Blue" TextColor="White" Clicked="btnTest1_Clicked" />
+        <Button Grid.Row="5" Grid.Column="0"  x:Name="btnTest2" Text="Test2" BackgroundColor="Blue" TextColor="White" Clicked="btnTest2_Clicked" />
+        <Button Grid.Row="6" Grid.Column="0"  x:Name="btnTest3" Text="Test3" BackgroundColor="Blue" TextColor="White" Clicked="btnTest3_Clicked" />
+        <Button Grid.Row="7" Grid.Column="0"  x:Name="btnTest4" Text="Test4" BackgroundColor="Blue" TextColor="White" Clicked="btnTest4_Clicked" />
+        <Button Grid.Row="8" Grid.Column="0"  x:Name="btnTest5" Text="Test5" BackgroundColor="Blue" TextColor="White" Clicked="btnTest5_Clicked" />
+        <Button Grid.Row="9" Grid.Column="0"  x:Name="btnTest6" Text="Test6" BackgroundColor="Blue" TextColor="White" Clicked="btnTest6_Clicked" />
+        <Button Grid.Row="10" Grid.Column="0"  x:Name="btnTest7" Text="Test7" BackgroundColor="Blue" TextColor="White" Clicked="btnTest7_Clicked" />
+
+        <Button Grid.Row="4" Grid.Column="1"  x:Name="btnTest8" Text="Test8" BackgroundColor="Blue" TextColor="White" Clicked="btnTest8_Clicked" />
+        <Button Grid.Row="5" Grid.Column="1"  x:Name="btnTest9" Text="Test9" BackgroundColor="Blue" TextColor="White" Clicked="btnTest9_Clicked" />
+        <Button Grid.Row="6" Grid.Column="1"  x:Name="btnTest10" Text="Test10" BackgroundColor="Blue" TextColor="White" Clicked="btnTest10_Clicked" />
+        <Button Grid.Row="7" Grid.Column="1"  x:Name="btnTest11" Text="Test11" BackgroundColor="Blue" TextColor="White" Clicked="btnTest11_Clicked" />
+        <Button Grid.Row="8" Grid.Column="1"  x:Name="btnTest12" Text="Test12" BackgroundColor="Blue" TextColor="White" Clicked="btnTest12_Clicked" />
+    </Grid>
+
+</ContentPage>

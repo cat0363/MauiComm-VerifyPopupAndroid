@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+		   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+		   xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+		   x:Class="MauiComm_VerifyPopupAndroid.PopupPage8">
+
+    <VerticalStackLayout>
+        <Label x:Name="PopUp" Text="     Critical Alert Testing     " BackgroundColor="White" TextColor="Black" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Center" />
+        <Button x:Name="Button_Continue" Text=" Continue " BackgroundColor="Red" TextColor="White" FontSize="Large" />
+    </VerticalStackLayout>
+</toolkit:Popup>

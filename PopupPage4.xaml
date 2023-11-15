@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="MauiComm_VerifyPopupAndroid.PopupPage4">
+    <Grid>
+        <Grid ColumnDefinitions="*" RowDefinitions="auto,auto,auto" >
+            <Label x:Name="testlabel1" BackgroundColor="Red" HorizontalTextAlignment="Center"/>
+            <Label x:Name="testlabel2" Grid.Row="1" />
+
+            <VerticalStackLayout Grid.Row="2" Spacing="4">
+                <Label x:Name="testlabel3" BackgroundColor="Red" HorizontalTextAlignment="Center"/>
+                <Label x:Name="testlabel4" />
+            </VerticalStackLayout>
+        </Grid>
+        <Grid WidthRequest="10" HeightRequest="10" BackgroundColor="Blue" VerticalOptions="Start" HorizontalOptions="Start" />
+        <Grid WidthRequest="10" HeightRequest="10" BackgroundColor="Blue" VerticalOptions="Start" HorizontalOptions="End" />
+        <Grid WidthRequest="10" HeightRequest="10" BackgroundColor="Blue" VerticalOptions="End" HorizontalOptions="Start" />
+        <Grid WidthRequest="10" HeightRequest="10" BackgroundColor="Blue" VerticalOptions="End" HorizontalOptions="End" />
+    </Grid>
+</toolkit:Popup>
